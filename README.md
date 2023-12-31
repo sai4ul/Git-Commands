@@ -6,6 +6,10 @@
 - [Version English](README.md)
 ___
 
+## About it
+> Have you recently started using Git? This should give you the base commands you need to perform the most common actions in Git. If you find a command that is not here, or could be explained better, please don't hesitate in * [Contributing](#contributing). Cheers!
+
+
 
 ### Getting & Creating Projects
 
@@ -65,3 +69,13 @@ ___
 | `git log --summary` | View changes (detailed) |
 | `git log --oneline` | View changes (briefly) |
 | `git diff [source branch] [target branch]` | Preview changes before merging |
+
+
+
+### Contributing
+
+1. Fork it!
+2. Create your feature branch: `git checkout -b my-new-feature`
+3. Commit your changes: `git commit -m 'Add some feature'`
+4. Push to the branch: `git push -u origin my-new-feature`
+5. Submit a pull request - cheers!
