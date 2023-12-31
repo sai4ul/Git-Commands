@@ -113,7 +113,7 @@ lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s
 ```
 
 
-### Contributing [🌟](#git-commands-🌟)
+### Contributing [🌟](#🌟)
 
 1. Fork it!
 2. Create your feature branch: `git checkout -b my-new-feature`
