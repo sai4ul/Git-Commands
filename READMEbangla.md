@@ -2,7 +2,7 @@
 ============
 
 ## অনুবাদিত সংস্করণ
-- [বাংলা সংস্করণ](READMEbn.md)
+- [বাংলা সংস্করণ](RREADMEbangla.md)
 - [Version English](README.md)
 ___
 

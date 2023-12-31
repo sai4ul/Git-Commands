@@ -2,7 +2,7 @@
 # Git Alias &amp; BASH Command
 
 ## Translated Versions
-- [বাংলা সংস্করণ](READMEbn.md)
+- [বাংলা সংস্করণ](READMEbangla.md)
 - [Version English](README.md)
 ___
 
