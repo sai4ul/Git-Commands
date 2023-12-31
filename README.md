@@ -1,3 +1,9 @@
+<img
+  src="/assets/img/git.png"
+  width="70"
+  align="right"
+/>
+
 
 # Git Alias &amp; BASH Command
 
@@ -20,14 +26,14 @@ ___
 
 ## Git Commands 🌟🌟🌟
 
-### 👉 Getting & Creating Projects 🔆
+### 👉 Getting & Creating Projects
 
 | Command | Description |
 | ------- | ----------- |
 | `git init` | Initialize a local Git repository |
 | `git clone ssh://git@github.com/[username]/[repository-name].git` | Create a local copy of a remote repository |
 
-### 👉 Basic Snapshotting 🔆
+### 👉 Basic Snapshotting
 
 | Command | Description |
 | ------- | ----------- |
