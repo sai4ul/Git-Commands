@@ -103,7 +103,7 @@ ds
 
 
 
-## Useful alias
+## 🌟🌟 Useful alias
 To add an alias simply open your .gitconfig file on your home directory and include the alias code
 
 ```sh
