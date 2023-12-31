@@ -18,7 +18,7 @@ ___
 > Have you recently started using Git? This should give you the base commands you need to perform the most common actions in Git. If you find a command that is not here, or could be explained better, please don't hesitate in * [Contributing](#contributing). Cheers!
 
 
-## 🌟🌟 Git Commands 🌟🌟
+## Git Commands 🌟🌟
 
 ### Getting & Creating Projects
 
@@ -81,7 +81,7 @@ ___
 
 
 
-## 🌟🌟 BASH Commands 🌟🌟
+## BASH Commands 🌟🌟
 a
 dsf
 asdf
@@ -97,13 +97,13 @@ df
 asdf
 
 ds
-## 🌟🌟 Git Alias Commands 🌟🌟
+## Git Alias Commands 🌟🌟
 
 
 
 
 
-## 🌟🌟 Useful alias
+## Useful alias 🌟🌟🌟
 To add an alias simply open your .gitconfig file on your home directory and include the alias code
 
 ```sh
