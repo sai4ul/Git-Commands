@@ -20,14 +20,14 @@ ___
 
 ## Git Commands 🌟🌟🌟
 
-### 🔆 Getting & Creating Projects
+### 👉 Getting & Creating Projects 🔆
 
 | Command | Description |
 | ------- | ----------- |
 | `git init` | Initialize a local Git repository |
 | `git clone ssh://git@github.com/[username]/[repository-name].git` | Create a local copy of a remote repository |
 
-### 🌿 Basic Snapshotting
+### 👉 Basic Snapshotting 🔆
 
 | Command | Description |
 | ------- | ----------- |
@@ -37,7 +37,7 @@ ___
 | `git commit -m "[commit message]"` | Commit changes |
 | `git rm -r [file-name.txt]` | Remove a file (or folder) |
 
-### ✏️ Branching & Merging
+### 👉 Branching & Merging
 
 | Command | Description |
 | ------- | ----------- |
