@@ -97,7 +97,7 @@ df
 asdf
 
 ds
-## 🌟🌟 Git Alias Commands 🌟🌟
+### 🌟🌟 Git Alias Commands 🌟🌟
 
 
 ### Contributing
