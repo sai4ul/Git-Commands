@@ -271,11 +271,100 @@ asdf
     docs = !git add . && git commit -m "Update" && git push origin master
     update = !git fetch upstream && git rebase upstream/master && git push origin master
 
-git_add: 
+gitAdd: 
+
     git a = add
     git aa = add --all
     git ap = add --patch
     git au = add --update
+
+gitBranch:
+
+    git b = branch
+    git bm = branch --merged
+    git bnm = branch --no-merged
+    git bed = branch --edit-description
+    git bsd = branch --show-description (polyfill)
+
+gitCommit:
+
+    git c = commit
+    git ca = commit --amend
+    git cam = commit --amend --message
+    git cane = commit --amend --no-edit
+    git ci = commit --interactive
+    git cm = commit --message
+
+gitCheckout:
+
+    git co = checkout
+    git cog = checkout --guess
+    git cong = checkout --no-guess
+    git cob = checkout -b
+
+gitFetch:
+    git f = fetch
+
+gitCherry-pick:
+
+    git cp = cherry-pick
+    git cpa = cherry-pick --abort
+    git cpc = cherry-pick --continue
+    git cpn = cherry-pick -n (--no-commit)
+    git cpnx = cherry-pick -n -x (--no-commit and with a message)
+
+gitDiff:
+
+    git d = diff
+    git dd = diff with our preferred settings
+    git dc = diff --cached
+    git ds = diff --staged
+    git dwd = diff --word-diff
+
+gitLog:
+
+    git l = log
+    git ll = log list with our preferred short settings
+    git lll = log list with our preferred long settings
+    git lg = log --graph
+    git lo = log --oneline
+    git lor = log --oneline --reverse
+    git lp = log --patch
+    git lfp = log --first-parent
+    git lto = log --topo-order
+
+gitMerge:
+    git m = merge
+    git ma = merge --abort
+    git mc = merge --continue
+    git mncnf = merge --no-commit --no-ff
+
+gitPull:
+    git pf = pull --ff-only
+    git pr = pull --rebase
+    git prp = pull --rebase=preserve
+
+gitRebase:
+    git rb = rebase
+    git rba = rebase --abort
+    git rbc = rebase --continue
+    git rbs = rebase --skip
+    git rbi = rebase --interactive
+    git rbiu = rebase --interactive @{upstream}
+
+gitRemote:
+
+    git rr = remote
+    git rrs = remote show
+    git rru = remote update
+    git rrp = remote prune
+
+gitStatus:
+
+    git s = status
+    git ss = status --short
+    git ssb = status --short --branch
+
 
 ```
 
