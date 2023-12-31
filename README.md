@@ -9,8 +9,8 @@ ___
 ## Table of contents
 
 * [git Commands](#git-commands)
-* [BASH Commands](#BASH-commands)
-* [Git Alias Command](#Git-Alias-Command)
+* [BASH Commands](#bash-commands)
+* [Git Alias Command](#git-alias-command)
 
 
 
