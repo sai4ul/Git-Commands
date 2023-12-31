@@ -26,6 +26,35 @@ ___
 
 ## Git Commands 🌟🌟🌟
 
+
+
+### 👉 Glossary
+
+| Keywords                     | Description                                                                                                             |
+| ---------------------------- | ----------------------------------------------------------------------------------------------------------------------- |
+| git                          | Open-source distributed version-control system, used to store code in repositories                                      |
+| GitHub, GitLab and Bitbucket | Platform for hosting and collaborating on Git repositories                                                              |
+| staging                      | Proposed files/directories that you'd like to commit                                                                    |
+| commit                       | Saving all staged files/directories to your local repository                                                            |
+| branch                       | An independent line of development, so you can develop features isolated from each other. Master branch is the default. |
+| clone                        | Local version of a repository, including all commits and branches                                                       |
+| remote                       | Common repository on eg. Github that all team members to keep that changes in sync with                                 |
+| fork                         | Copy of a repository owned by a different user                                                                          |
+| pull request                 | A method of submitting contributions to a repository                                                                    |
+| HEAD                         | Represents your current working directory                                                                               |
+
+
+
+### 👉 Configuration
+
+| Key/Command                              | Description                                         |
+| ---------------------------------------- | --------------------------------------------------- |
+| `git config --global user.name [name]`   | Set author name to be used for all commits          |
+| `git config --global user.email [email]` | Set author email to be used for all commits         |
+| `git config color.ui true`               | Enables helpful colorization of command line output |
+
+
+
 ### 👉 Getting & Creating Projects
 
 | Command | Description |
@@ -43,14 +72,44 @@ ___
 | `git commit -m "[commit message]"` | Commit changes |
 | `git rm -r [file-name.txt]` | Remove a file (or folder) |
 
+
+### 👉 Committing files
+
+| Command | Description |
+| ------- | ----------- |
+| `git commit -m 'commit message' ` | Commit staged file(s) |
+| `git commit filename -m 'commit message' ` | Add file and commit |
+| `git commit -am 'insert commit message' ` | Add file and commit staged file |
+| `git commit --amend 'new commit message' ` | Amending a commit |
+| ` git rebase -i ` | Squashing commits together |
+| `git reset --soft HEAD~number_of_commits ` | Squashing commits together using reset --soft |
+| `git shortlog -s --author 'Author Name' ` | Number of commits by author |
+| `git shortlog -s -n ` | List of authors and commits to a repository sorted alphabetically |
+| `git shortlog -n --author 'Author Name' ` | List of commit comments by author |
+
+
+### 👉 Git remote
+
+| Command | Description |
+| ------- | ----------- |
+| `git remote show origin' ` | Show where 'origin' is pointing to and also tracked branches |
+| `git remote -v ` |  Show where 'origin' is pointing to |
+| `git remote set-url origin https://github.com/user/repo.git` |  Change the 'origin' remote's URL |
+| `git remote add [NAME] https://github.com/user/fork-repo.git` |  Add a new 'origin' |
+
+
 ### 👉 Branching & Merging
 
 | Command | Description |
 | ------- | ----------- |
-| `git branch` | List branches (the asterisk denotes the current branch) |
+| `git branch` | List current branch |
 | `git branch -a` | List all branches (local and remote) |
+| ` git branch -a --merged` | Viewing all branches that have been merged into your current branch, including local and remote |
+| `git branch -a --no-merged` | Viewing all branches that haven't been merged into your current branch, local and remote |
 | `git branch [branch name]` | Create a new branch |
-| `git branch -d [branch name]` | Delete a branch |
+| `git branch -d [branch name]` | Deleting a local branch |
+| `git branch -D [branch name]` | Deleting a local branch if it hasn't been merged yet |
+| `git branch -r` | Viewing remote branches|
 | `git push origin --delete [branch name]` | Delete a remote branch |
 | `git checkout -b [branch name]` | Create a new branch and switch to it |
 | `git checkout -b [branch name] origin/[branch name]` | Clone a remote branch and switch to it |
@@ -62,6 +121,74 @@ ___
 | `git merge [source branch] [target branch]` | Merge a branch into a target branch |
 | `git stash` | Stash changes in a dirty working directory |
 | `git stash clear` | Remove all stashed entries |
+| `git push origin branchname` | Pushing local branch to remote |
+
+
+
+### 👉 Stashing files
+
+| Command | Description |
+| ------- | ----------- |
+| `git stash` | Stash local changes |
+| `git stash save "this is your custom message"` | Stash local changes with a custom message |
+| `git stash apply` |  Re-apply the changes you saved in your latest stash |
+| `git stash apply stash@{stash_number}` | Re-apply the changes you saved in a given stash number |
+| `git stash drop stash@{0}` | Drops any stash by its number |
+| `git stash pop` | Apply the stash and then immediately drop it from your stack |
+| `git stash pop stash@{stash_number}` | 'Release' a particular stash from your list of stashes |
+| `git stash list` | List all stashes |
+| ` git stash show` | Show the latest stash changesh |
+| `git diff stash@{0}` | See diff details of a given stash number |
+
+
+### 👉 Checking what you are committing
+
+| Command | Description |
+| ------- | ----------- |
+| `git diff` | See all (non-staged) changes done to a local repo |
+| `git diff --cached` | See all (staged) changes done to a local repo |
+| `git diff --stat origin/master` | Check what the changes between the files you've committed and the live repo |
+
+
+
+### 👉 Synchronization of Changes
+
+| Key/Command   | Description                                                                           |
+| ------------- | ------------------------------------------------------------------------------------- |
+| `git fetch`   | Downloads all history from the remote branches                                        |
+| `git merge`   | Merges remote branch into current local branch                                        |
+| `git pull`    | Downloads all history from the remote branch and merges into the current local branch |
+| `git push`    | Pushes all the commits from the current local branch to its remote equivalent         |
+
+*Tip: `git pull` is the combination of `git fetch` and `git merge`*
+
+
+### Undo Changes
+
+| Key/Command                 | Description                                                                                 |
+| --------------------------- | ------------------------------------------------------------------------------------------- |
+| `git checkout -- [file]`    | Replace file with contents from HEAD                                                        |
+| `git revert [commit]`       | Create new commit that undoes changes made in [commit], then apply it to the current branch |
+| `git reset [file]`          | Remove [file] from staging area                                                             |
+| `git reset --hard HEAD`     | Removes all local changes in working directory                                              |
+| `git reset --hard [commit]` | Reset your HEAD pointer to previous commit and discard all changes since then               |
+| `git reset HEAD -- filename` | The version from the most recent commit              |
+
+
+### Branches
+
+| Key/Command                | Description                        |
+| -------------------------- | ---------------------------------- |
+| `git branch [branch]`      | Create a new branch                |
+| `git checkout [branch]`    | Switch to that branch              |
+| `git checkout [branch] -b` | Create and checkout new branch     |
+| `git merge [branch]`       | Merge [branch] into current branch |
+| `git branch -d [branch]`   | Deletes the [branch]               |
+| `git push origin [branch]` | Push [branch] to remote            |
+| `git branch`               | Lists local branches               |
+| `git branch -r`            | Lists remote branches              |
+| `git branch -a`            | Lists local and remote branches    |
+
 
 ### 👉 Sharing & Updating Projects
 
@@ -84,6 +211,21 @@ ___
 | `git log --summary` | View changes (detailed) |
 | `git log --oneline` | View changes (briefly) |
 | `git diff [source branch] [target branch]` | Preview changes before merging |
+
+### History / log
+
+| Key/Command                | Description                                                      |
+| -------------------------- | ---------------------------------------------------------------- |
+| `git log`                  | Show a list of all commits. shows everything commit ID, author, date and commit message                     |
+| `git log --author=[name]`  | List of commits by author |
+| `git log --oneline`        | Lists compressed version history for the current branch          |
+| `git show [commit]`        | Outputs metadata and content changes of the specified commit     |
+| `git blame [file]`         | Shows who changed what and when in file                          |
+| ` git log -p`         | List of commits showing commit messages and changes                         |
+| ` git log -S 'something' `   | List of commits with the particular expression you are looking for                         |
+| ` git log --since=yesterday `   | Show a list of commits in a repository since yesterday |
+
+
 
 
 
