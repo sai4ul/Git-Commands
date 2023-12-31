@@ -8,9 +8,9 @@ ___
 
 ## Table of contents
 
-* [git Commands](#git-commands)
+* [Git Commands](#git-commands)
 * [BASH Commands](#bash-commands)
-* [Git Alias Command](#git-alias-command)
+* [Git Alias Commands](#Git-Alias-Commands)
 
 
 
@@ -18,7 +18,7 @@ ___
 > Have you recently started using Git? This should give you the base commands you need to perform the most common actions in Git. If you find a command that is not here, or could be explained better, please don't hesitate in * [Contributing](#contributing). Cheers!
 
 
-## 🌟🌟 git Commands 🌟🌟
+## 🌟🌟 Git Commands 🌟🌟
 
 ### Getting & Creating Projects
 
