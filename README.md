@@ -103,7 +103,7 @@ ds
 
 
 
-## Useful alias
+## Useful alias [%F0%9F%8C%9F%F0%9F%8C%9F%F0%9F%8C%9F](#%F0%9F%8C%9F%F0%9F%8C%9F%F0%9F%8C%9F)
 
 To add an alias simply open your .gitconfig file on your home directory and include the alias code
 
@@ -113,8 +113,7 @@ lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s
 ```
 
 
-### Contributing [%F0%9F%8C%9F%F0%9F%8C%9F%F0%9F%8C%9F](#%F0%9F%8C%9F%F0%9F%8C%9F%F0%9F%8C%9F)
-
+### Contributing
 1. Fork it!
 2. Create your feature branch: `git checkout -b my-new-feature`
 3. Commit your changes: `git commit -m 'Add some feature'`
