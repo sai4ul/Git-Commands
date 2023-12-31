@@ -6,10 +6,19 @@
 - [Version English](README.md)
 ___
 
+## Table of contents
+
+* [git Command](#git-command )
+* [BASH Command](#BASH-command)
+* [Git Alias Command](#Git-Alias)
+
+
+
 ## About it
 > Have you recently started using Git? This should give you the base commands you need to perform the most common actions in Git. If you find a command that is not here, or could be explained better, please don't hesitate in * [Contributing](#contributing). Cheers!
 
 
+## 🚀 git Command 🚀
 
 ### Getting & Creating Projects
 
@@ -70,6 +79,25 @@ ___
 | `git log --oneline` | View changes (briefly) |
 | `git diff [source branch] [target branch]` | Preview changes before merging |
 
+
+
+## 🚀 BASH Command 🚀
+a
+dsf
+asdf
+asd
+fasd
+f
+asdf
+asd
+f
+sdaf
+as
+df
+asdf
+
+ds
+## 🚀 Git Alias Command 🚀
 
 
 ### Contributing
