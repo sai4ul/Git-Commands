@@ -244,21 +244,40 @@ as
 df
 asdf
 
-ds
-## Git Alias Commands 🌟🌟🌟
 
+
+## Short Aliases 🌟🌟🌟
+
+
+```.gitconfig
+[alias]
+    g = git
+    st = status
+    co = checkout
+    ad = add
+    cm = commit -m
+    acm = commit -am
+    ph = push
+    rb = rebase -i
+    fh = fetch
+    df = diff
+    br = branch -a
+    lg = log --graph --abbrev-commit --decorate --format=format:'%C(cyan)%h%C(reset) - %C(green)(%ar)%C(reset) %C(white)%s%C(reset) %C(dim white)- %an%C(reset)%C(yellow)%d%    C(reset)' --all
+    re = reset HEAD\\^
+    fu = fetch upstream
+    rum = rebase upstream/master
+    pom = push origin master
+    list = config --get-regexp alias
+    readme = !git add . && git commit -m "Update README.md" && git push origin master
+    docs = !git add . && git commit -m "Update" && git push origin master
+    update = !git fetch upstream && git rebase upstream/master && git push origin master
+```
 
 
 
 
 ## Useful alias 🌟🌟🌟
 
-To add an alias simply open your .gitconfig file on your home directory and include the alias code
-
-```sh
-# Shows the log in a more consisted way with the graph for branching and merging
-lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
-```
 
 
 ### Contributing
