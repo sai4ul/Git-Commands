@@ -20,14 +20,14 @@ ___
 
 ## Git Commands 🌟🌟
 
-### Getting & Creating Projects
+### 🔆 Getting & Creating Projects
 
 | Command | Description |
 | ------- | ----------- |
 | `git init` | Initialize a local Git repository |
 | `git clone ssh://git@github.com/[username]/[repository-name].git` | Create a local copy of a remote repository |
 
-### Basic Snapshotting
+### ✏️ Basic Snapshotting
 
 | Command | Description |
 | ------- | ----------- |
@@ -37,7 +37,7 @@ ___
 | `git commit -m "[commit message]"` | Commit changes |
 | `git rm -r [file-name.txt]` | Remove a file (or folder) |
 
-### Branching & Merging
+### ✏️ Branching & Merging
 
 | Command | Description |
 | ------- | ----------- |
@@ -57,7 +57,7 @@ ___
 | `git stash` | Stash changes in a dirty working directory |
 | `git stash clear` | Remove all stashed entries |
 
-### Sharing & Updating Projects
+### ✏️ Sharing & Updating Projects
 
 | Command | Description |
 | ------- | ----------- |
@@ -113,7 +113,7 @@ lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s
 ```
 
 
-### Contributing [🌟](#🌟)
+### Contributing [%F0%9F%8C%9F%F0%9F%8C%9F](#%F0%9F%8C%9F%F0%9F%8C%9F)
 
 1. Fork it!
 2. Create your feature branch: `git checkout -b my-new-feature`
