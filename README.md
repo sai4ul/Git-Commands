@@ -369,6 +369,154 @@ gitStatus:
 ```
 
 
+## Useful Short Aliases 🌟🌟🌟
+
+## Short aliases
+
+Short aliases are for frequent commands and options:
+
+git add:
+
+  * [git a]() = add
+  * [git aa]() = add --all
+  * [git ap]() = add --patch
+  * [git au]() = add --update
+
+git branch:
+
+  * [git b](doc/git-b/) = branch
+  * [git bm](doc/git-bm/) = branch --merged
+  * [git bnm](doc/git-bnm/) = branch --no-merged
+  * [git bed](doc/git-bed/) = branch --edit-description
+  * [git bsd](doc/git-bsd/) = branch --show-description (polyfill)
+
+git commit:
+
+  * [git c](doc/git-c/) = commit
+  * [git ca](doc/git-ca/) = commit --amend
+  * [git cam](doc/git-cam/) = commit --amend --message
+  * [git cane](doc/git-cane/) = commit --amend --no-edit
+  * [git ci](doc/git-ci/) = commit --interactive
+  * [git cm](doc/git-cm/) = commit --message
+
+git checkout:
+
+  * [git co](doc/git-co/) = checkout
+  * [git cog](doc/git-cog/) = checkout --guess
+  * [git cong](doc/git-cong/) = checkout --no-guess
+  * [git cob](doc/git-cob/) = checkout -b
+
+git cherry-pick:
+
+  * [git cp](doc/git-cp/) = cherry-pick
+  * [git cpa](doc/git-cpa/) = cherry-pick --abort
+  * [git cpc](doc/git-cpc/) = cherry-pick --continue
+  * [git cpn](doc/git-cpn/) = cherry-pick -n (--no-commit)
+  * [git cpnx](doc/git-cpnx/) = cherry-pick -n -x (--no-commit and with a message)
+
+git diff:
+
+  * [git d](doc/git-d/) = diff
+  * [git dd](doc/git-dd/) = diff with our preferred settings
+  * [git dc](doc/git-dc/) = diff --cached
+  * [git ds](doc/git-ds/) = diff --staged
+  * [git dwd](doc/git-dwd/) = diff --word-diff
+
+git fetch:
+
+  * [git f](doc/git-f/) = fetch
+
+git grep:
+
+  * [git g](doc/git-g/) = grep
+  * [git gg](doc/git-gg/) = grep with our preferred settings
+  * [git gn](doc/git-gn/) = grep -n (--line-number)
+
+git log:
+
+  * [git l](doc/git-l/) = log
+  * [git ll](doc/git-ll/) = log list with our preferred short settings
+  * [git lll](doc/git-lll/) = log list with our preferred long settings
+  * [git lg](doc/git-lg/) = log --graph
+  * [git lo](doc/git-lo/) = log --oneline
+  * [git lor](doc/git-lor/) = log --oneline --reverse
+  * [git lp](doc/git-lp/) = log --patch
+  * [git lfp](doc/git-lfp/) = log --first-parent
+  * [git lto](doc/git-lto/) = log --topo-order
+
+git ls-files:
+
+  * [git ls](doc/git-ls/) = ls-files
+  * [git lsd](doc/git-lsd/) = ls-files --debug
+  * [git lsfn](doc/git-lsfn/) = ls-files --full-name
+  * [git lsio](doc/git-lsio/) = ls-files --ignored --others --exclude-standard
+
+git merge:
+
+  * [git m](doc/git-m/) = merge
+  * [git ma](doc/git-ma/) = merge --abort
+  * [git mc](doc/git-mc/) = merge --continue
+  * [git mncnf](doc/git-mncnf/) = merge --no-commit --no-ff
+
+git pull:
+
+  * [git pf](doc/git-pf/) = pull --ff-only
+  * [git pr](doc/git-pr/) = pull --rebase
+  * [git prp](doc/git-prp/) = pull --rebase=preserve
+
+git rebase:
+
+  * [git rb](doc/git-rb/) = rebase
+  * [git rba](doc/git-rb/) = rebase --abort
+  * [git rbc](doc/git-rbc/) = rebase --continue
+  * [git rbs](doc/git-rbs/) = rebase --skip
+  * [git rbi](doc/git-rbi/) = rebase --interactive
+  * [git rbiu](doc/git-rbiu/) = rebase --interactive @{upstream}
+
+git reflog:
+
+  * [git rl](doc/git-rl/) = reflog
+
+git remote:
+
+  * [git rr](doc/git-rr/) = remote
+  * [git rrs](doc/git-rrs/) = remote show
+  * [git rru](doc/git-rru/) = remote update
+  * [git rrp](doc/git-rrp/) = remote prune
+
+git revert:
+
+  * [git rv](doc/git-rv/) = revert
+  * [git rvnc](doc/git-rvnc/) = revert --no-commit
+
+git show-branch:
+
+  * [git sb](doc/git-sb/) = show-branch
+  * [git sbdo](doc/git-sbdo/) = show-branch --date-order
+  * [git sbto](doc/git-sbto/) = show-branch --topo-order
+
+git submodule:
+
+  * [git sm](doc/git-sm/) = submodule
+  * [git smi](doc/git-smi/) = submodule init
+  * [git sma](doc/git-sma/) = submodule add
+  * [git sms](doc/git-sms/) = submodule sync
+  * [git smu](doc/git-smu/) = submodule update
+  * [git smui](doc/git-smui/) = submodule update --init
+  * [git smuir](doc/git-smuir/) = submodule update --init --recursive
+
+git status:
+
+  * [git s](doc/git-s/) = status
+  * [git ss](doc/git-ss/) = status --short
+  * [git ssb](doc/git-ssb/) = status --short --branch
+
+git whatchanged:
+
+  * [git w](doc/git-w/) = whatchanged
+
+
+
 
 
 ### Contributing
