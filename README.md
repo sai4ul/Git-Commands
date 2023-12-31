@@ -81,7 +81,7 @@ ___
 
 
 
-## BASH Commands 🌟🌟
+## BASH Commands  <!--🌟🌟-->
 a
 dsf
 asdf
