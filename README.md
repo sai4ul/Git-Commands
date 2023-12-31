@@ -18,7 +18,7 @@ ___
 > Have you recently started using Git? This should give you the base commands you need to perform the most common actions in Git. If you find a command that is not here, or could be explained better, please don't hesitate in * [Contributing](#contributing). Cheers!
 
 
-## Git Commands 🌟🌟
+## Git Commands 🌟🌟🌟
 
 ### 🔆 Getting & Creating Projects
 
@@ -27,7 +27,7 @@ ___
 | `git init` | Initialize a local Git repository |
 | `git clone ssh://git@github.com/[username]/[repository-name].git` | Create a local copy of a remote repository |
 
-### ✏️ Basic Snapshotting
+### 🌿 Basic Snapshotting
 
 | Command | Description |
 | ------- | ----------- |
@@ -57,7 +57,7 @@ ___
 | `git stash` | Stash changes in a dirty working directory |
 | `git stash clear` | Remove all stashed entries |
 
-### ✏️ Sharing & Updating Projects
+### 👉 Sharing & Updating Projects
 
 | Command | Description |
 | ------- | ----------- |
@@ -70,7 +70,7 @@ ___
 | `git remote add origin ssh://git@github.com/[username]/[repository-name].git` | Add a remote repository |
 | `git remote set-url origin ssh://git@github.com/[username]/[repository-name].git` | Set a repository's origin branch to SSH |
 
-### Inspection & Comparison
+### 👉 Inspection & Comparison 👊
 
 | Command | Description |
 | ------- | ----------- |
@@ -97,13 +97,13 @@ df
 asdf
 
 ds
-## Git Alias Commands 🌟🌟
+## Git Alias Commands 🌟🌟🌟
 
 
 
 
 
-## Useful alias [%F0%9F%8C%9F%F0%9F%8C%9F](#git-commands-%F0%9F%8C%9F%F0%9F%8C%9F)
+## Useful alias 🌟🌟🌟
 
 To add an alias simply open your .gitconfig file on your home directory and include the alias code
 
