@@ -11,7 +11,7 @@ ___
 * [Git Commands](#git-commands)
 * [BASH Commands](#bash-commands)
 * [Git Alias Commands](#Git-Alias-Commands)
-
+* [Useful Alias](#useful-alias)
 
 
 ## About it
@@ -98,6 +98,18 @@ asdf
 
 ds
 ## 🌟🌟 Git Alias Commands 🌟🌟
+
+
+
+
+
+#### Useful alias
+To add an alias simply open your .gitconfig file on your home directory and include the alias code
+
+```sh
+# Shows the log in a more consisted way with the graph for branching and merging
+lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+```
 
 
 ### Contributing
