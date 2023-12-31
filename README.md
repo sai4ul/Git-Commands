@@ -103,7 +103,7 @@ ds
 
 
 
-## Useful alias [%F0%9F%8C%9F%F0%9F%8C%9F](#%F0%9F%8C%9F%F0%9F%8C%9F)
+## Useful alias [%F0%9F%8C%9F%F0%9F%8C%9F](#git-commands-%F0%9F%8C%9F%F0%9F%8C%9F)
 
 To add an alias simply open your .gitconfig file on your home directory and include the alias code
 
