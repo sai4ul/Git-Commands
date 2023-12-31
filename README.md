@@ -271,8 +271,7 @@ asdf
     docs = !git add . && git commit -m "Update" && git push origin master
     update = !git fetch upstream && git rebase upstream/master && git push origin master
 
-    -- git add: -- 
-
+git_add: 
     git a = add
     git aa = add --all
     git ap = add --patch
