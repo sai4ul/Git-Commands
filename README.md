@@ -246,7 +246,7 @@ asdf
 
 
 
-## Short Aliases 🌟🌟🌟
+## Useful Short Aliases 🌟🌟🌟
 
 
 ```.gitconfig
@@ -262,7 +262,6 @@ asdf
     fh = fetch
     df = diff
     br = branch -a
-    lg = log --graph --abbrev-commit --decorate --format=format:'%C(cyan)%h%C(reset) - %C(green)(%ar)%C(reset) %C(white)%s%C(reset) %C(dim white)- %an%C(reset)%C(yellow)%d%    C(reset)' --all
     re = reset HEAD\\^
     fu = fetch upstream
     rum = rebase upstream/master
@@ -271,12 +270,16 @@ asdf
     readme = !git add . && git commit -m "Update README.md" && git push origin master
     docs = !git add . && git commit -m "Update" && git push origin master
     update = !git fetch upstream && git rebase upstream/master && git push origin master
+
+    -- git add: -- 
+
+    git a = add
+    git aa = add --all
+    git ap = add --patch
+    git au = add --update
+
 ```
 
-
-
-
-## Useful alias 🌟🌟🌟
 
 
 
