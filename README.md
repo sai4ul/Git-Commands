@@ -17,7 +17,6 @@ ___
 * [Git Commands](#git-commands)
 * [BASH Commands](#bash-commands)
 * [Git Alias Commands](#Git-Alias-Commands)
-* [Useful Alias](#useful-alias)
 
 
 ## About it
@@ -25,7 +24,6 @@ ___
 
 
 ## Git Commands 🌟🌟🌟
-
 
 
 ### 👉 Glossary
@@ -104,16 +102,17 @@ ___
 | ------- | ----------- |
 | `git branch` | List current branch |
 | `git branch -a` | List all branches (local and remote) |
-| ` git branch -a --merged` | Viewing all branches that have been merged into your current branch, including local and remote |
+| `git branch -r` | Viewing remote branches|
+| ` git branch -a --merged` | Viewing all branches that have been merged into your current branch, local and remote |
 | `git branch -a --no-merged` | Viewing all branches that haven't been merged into your current branch, local and remote |
 | `git branch [branch name]` | Create a new branch |
-| `git branch -d [branch name]` | Deleting a local branch |
-| `git branch -D [branch name]` | Deleting a local branch if it hasn't been merged yet |
-| `git branch -r` | Viewing remote branches|
-| `git push origin --delete [branch name]` | Delete a remote branch |
 | `git checkout -b [branch name]` | Create a new branch and switch to it |
 | `git checkout -b [branch name] origin/[branch name]` | Clone a remote branch and switch to it |
 | `git branch -m [old branch name] [new branch name]` | Rename a local branch |
+| `git branch -m [new-branch-name]` | Rename current branch |
+| `git branch -d [branch name]` | Deleting a local branch |
+| `git branch -D [branch name]` | Deleting a local branch if it hasn't been merged yet |
+| `git push origin --delete [branch name]` | Delete a remote branch |
 | `git checkout [branch name]` | Switch to a branch |
 | `git checkout -` | Switch to the branch last checked out |
 | `git checkout -- [file-name.txt]` | Discard changes to a file |
@@ -229,7 +228,7 @@ ___
 
 
 
-## BASH Commands  <!--🌟🌟-->
+## BASH Commands  🌟🌟🌟
 a
 dsf
 asdf
@@ -370,10 +369,6 @@ gitStatus:
 
 
 ## Useful Short Aliases 🌟🌟🌟
-
-## Short aliases
-
-Short aliases are for frequent commands and options:
 
 git add:
 
