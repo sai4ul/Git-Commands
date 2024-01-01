@@ -1,14 +1,12 @@
 <img
-  src="/img/git.png"
+  src="/assets/img/git.png"
   width="70"
   align="right"
 />
 
-
-গিট কমান্ডস
+গিট উপনাম এবং BASH কমান্ড
 ============
 
-## অনুবাদিত সংস্করণ
 - [বাংলা সংস্করণ](RREADMEbangla.md)
 - [Version English](README.md)
 ___
