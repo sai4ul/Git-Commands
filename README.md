@@ -31,7 +31,7 @@ ___
 | Keywords                     | Description                                                                                                             |
 | ---------------------------- | ----------------------------------------------------------------------------------------------------------------------- |
 | git                          | Open-source distributed version-control system, used to store code in repositories                                      |
-| GitHub, GitLab and Bitbucket | Platform for hosting and collaborating on Git repositories                                                              |
+| GitHub, GitLab, Bitbucket    | Platform for hosting and collaborating on Git repositories                                                              |
 | staging                      | Proposed files/directories that you'd like to commit                                                                    |
 | commit                       | Saving all staged files/directories to your local repository                                                            |
 | branch                       | An independent line of development, so you can develop features isolated from each other. Master branch is the default. |
@@ -396,7 +396,7 @@ Git Remote :
 Git Status :
 
 ```.gitconfig
-[Remote]
+[Status]
     git s = status
     git ss = status --short
     git ssb = status --short --branch
