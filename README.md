@@ -4,7 +4,6 @@
   align="right"
 />
 
-
 # Git Alias &amp; BASH Command
 
 ## Translated Versions
