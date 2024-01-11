@@ -24,7 +24,6 @@ ___
 
 ## Git Commands 🌟🌟🌟
 
-
 ### 👉 Glossary
 
 | Keywords                     | Description                                                                                                             |
@@ -41,7 +40,6 @@ ___
 | HEAD                         | Represents your current working directory                                                                               |
 
 
-
 ### 👉 Configuration
 
 | Key/Command                              | Description                                         |
@@ -49,7 +47,6 @@ ___
 | `git config --global user.name [name]`   | Set author name to be used for all commits          |
 | `git config --global user.email [email]` | Set author email to be used for all commits         |
 | `git config color.ui true`               | Enables helpful colorization of command line output |
-
 
 
 ### 👉 Getting & Creating Projects
@@ -148,7 +145,6 @@ ___
 | `git diff --stat origin/master` | Check what the changes between the files you've committed and the live repo |
 
 
-
 ### 👉 Synchronization of Changes
 
 | Key/Command   | Description                                                                           |
@@ -222,26 +218,6 @@ ___
 | ` git log -p`         | List of commits showing commit messages and changes                         |
 | ` git log -S 'something' `   | List of commits with the particular expression you are looking for                         |
 | ` git log --since=yesterday `   | Show a list of commits in a repository since yesterday |
-
-
-
-
-
-## BASH Commands  🌟🌟🌟
-a
-dsf
-asdf
-asd
-fasd
-f
-asdf
-asd
-f
-sdaf
-as
-df
-asdf
-
 
 
 ## Useful Short Aliases 🌟🌟🌟
