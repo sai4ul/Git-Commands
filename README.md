@@ -328,7 +328,6 @@ Git Merge :
     git mc = merge --continue
     git mncnf = merge --no-commit --no-ff
 ```
-
 Git fetch :
 
 ```.gitconfig
