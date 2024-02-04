@@ -383,4 +383,5 @@ Git Status :
 2. Create your feature branch: `git checkout -b my-new-feature`
 3. Commit your changes: `git commit -m 'Add some feature'`
 4. Push to the branch: `git push -u origin my-new-feature`
-5. Submit a pull request - cheers!
+5. Submit a pull request
+6. cheers!
