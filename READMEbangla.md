@@ -4,7 +4,7 @@
   align="right"
 />
 
-গিট উপনাম এবং BASH কমান্ড
+গিট Alias এবং BASH কমান্ড
 ============
 
 - [বাংলা সংস্করণ](RREADMEbangla.md)
